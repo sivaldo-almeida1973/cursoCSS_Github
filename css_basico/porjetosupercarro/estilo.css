@@ -1,0 +1,52 @@
+body {
+
+  background: rgb(207, 225, 226);
+  font: 16px Arial,helvetica, sans-serif;
+}
+
+#principal {
+  border: 1px solid;
+  width: 900px;
+  
+
+}
+
+#menu {
+  
+  background:#2458f3 ;
+  padding: 18px;
+  color: whitesmoke;
+}
+
+#conteudo {
+  background: #e8e8d9;
+  padding: 10px;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 5PX;
+  font-weight: bold;
+ 
+
+}
+
+#rodape {
+  text-align: center;
+}
+
+#cadastro {
+  padding: 10px;
+  margin-left: 30px;
+}
+
+h1 {
+  color: #828271;
+  font-size: 1.2em;
+}
+
+
+img {
+  width: 900px;
+}

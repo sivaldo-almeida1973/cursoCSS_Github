@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estilo CSS Externo</title>
+ 
+  <link rel="stylesheet" href="estilo.css">
+
+
+</head>
+<body >
+
+   <div id="principal">
+
+  
+
+        <img src="imagens/Mustang.jpg" alt="">
+
+        <div id="menu">
+
+          <a href="mercedes.html">MERCEDES</a>|
+          <a href="mustang.html">MUSTANG</a>|
+          <a href="ferrari.html">FERRARI</a>|
+          <a href="corvette.html">CORVETTE</a>|
+
+          
+          <a href="cadastre-se.html">CONTATO</a>    
+      </div>
+
+      <div id="cadastro">
+        <h2>Login</h2>
+        <form action="processa.php">
+         <hr>
+   
+         Login: <br>
+         <input type="text" name="login"> <br>
+         Senha: <br>
+         <input type="password" name="senha"> <br> <br>
+         <input type="submit" value="Logar"> <br>
+   
+        </form>
+        <hr>
+   
+        
+       
+        <form action="">
+   
+          <h2>Tela cadastro</h2>
+          <hr>
+          Login: <br>
+          <input type="text" name="login" id="#"> <br><br>
+          Sexo: <br>
+          <!--colocar o mesmo name ,evita que as duas opçoes fiquem marcados-->
+          <input type="radio" name="sexo" value="M">Masculino <br>
+          <input type="radio" name="sexo" value="F">Feminino <br> <br>
+          Interesses: <br>
+          <input type="checkbox" name="" id="interesses"> Ferrari <br>
+          <input type="checkbox" name="" id="interesses"> Mustang  <br>
+          <input type="checkbox" name="" id="interesses"> MERCEDES  <br>
+
+          <input type="checkbox" name="" id="interesses"> CORVETTE  <br>
+          Estado: <br>
+          <select name="estados" id="">
+           <option value="sp">SP</option>
+           <option value="mg">MG</option>
+           <option value="pa">PA</option>
+           <option value="ma">MA</option>
+           <option value="ce">CE</option>
+          </select>
+          <br><br>
+          Observações: <br>
+          <textarea ></textarea>  <br>
+   
+          <input type="submit" value="Cadastre-se" id="">
+      </div>
+
+      
+
+
+
+
+   </div>
+     
+</body>
+</html>
