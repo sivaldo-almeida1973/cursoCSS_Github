@@ -1,0 +1,53 @@
+/* *{
+  border: 1px solid rgb(231, 159, 159);
+  
+} */
+
+/* seletor texto*/
+h1 {
+  color: rgb(68, 226, 68);
+}
+
+.verde {
+  color: rgb(95, 201, 74);
+}
+/* seletor classe*/
+
+p.verde {
+  color: rgb(149, 231, 149);
+}
+
+/* seletor de id */
+
+#cabecalho {
+  border: 1px solid red;
+}
+
+/* seletor de filho /link dentro de li*/
+li > a {
+  color: red;
+  text-decoration: none;
+
+}
+
+
+
+/* seletor de descendente/ link dentro de paragrafo */
+
+p a {
+  color: greenyellow;
+
+}
+
+/* seletor de irmao adjacente , pargrafo logo apos h1*/
+
+/* h1+p {
+  color: red;
+
+} */
+
+/* seletor de irmao geral */
+
+h1~p{
+  color: blue;
+}
