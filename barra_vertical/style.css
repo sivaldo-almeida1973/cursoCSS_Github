@@ -32,11 +32,28 @@ ul a {
   text-decoration: none;
   text-indent: 40px;
   line-height: 40px;
-  background: url(imagem/menu.png) no-repeat left bottom;
+  background: #f7b600 url(imagem/menu.png) no-repeat left bottom;
 }
 
 a:hover {
   background-position: right bottom;
+  background: #f99200;
   color: white;
 }
+
+
+
+#home #navegacao .home a ,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a{
+  
+  background-position: right bottom;
+  background: #f99200;
+  color: white;
+
+}
+
+
 
