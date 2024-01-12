@@ -1,0 +1,42 @@
+/*  herança e especificidade*/
+
+/*border e bacground não são herdados estando no body*/
+/* body {
+  color: red;
+  border: 1px solid blue;
+  background: gray;
+ 
+  
+}
+
+div {
+  background: wheat;
+  
+} */
+
+/* especificidade=========================*/
+/*prevalece sempre o ultimo estilo aplicado*/
+/*pra evitar isso existe o (important)*/
+/* p {
+  color: red !important;
+}
+
+p {
+  color: blue;
+} */
+/*todo mundo*/
+* {
+  color:  red;
+}
+/*mais especifico vai priorizar*/
+h2 {
+  color: rgb(255, 115, 0);
+}
+
+h2.verde {
+  color: rgb(27, 224, 27);
+}
+
+h2#amarelo {
+  color: yellow;
+}
