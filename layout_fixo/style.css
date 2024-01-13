@@ -1,0 +1,118 @@
+/*Layouts fixo*/
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #eceaea;
+
+}
+#container {
+  width: 920px;
+  margin: 0 auto;/*centraliza o conteudo*/
+}
+
+#marca {
+ 
+  height: 100px;
+  background: gray url();
+  line-height: 6em;
+  text-align: center;
+}
+
+#conteudo {
+
+  width: 670px;
+  /* border: 1px solid; */
+  float: right;
+
+}
+
+#conteudo-principal {
+
+  width: 400px;
+  /* border: 1px solid; */
+  float: left;
+  padding: 10px;
+
+}
+#conteudo_secundario {
+
+  width: 190px;
+  padding: 5px;
+  /* border: 1px solid; */
+  float: right;
+  background: #d1d1d1;
+
+}
+
+#conteudo_secundario h1,
+#conteudo_secundario h2,
+#conteudo_secundario h3,
+#conteudo_secundario p {
+
+
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+
+}
+
+
+
+
+#navegacao {
+  /* border: 1px solid; */
+  width: 200px;
+  float: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  background: #d1d1d1;
+}
+
+#navegacao ul {
+  list-style: none;
+}
+
+#navegacao li a{
+ 
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-decoration: none;
+  text-indent: 40px;
+  line-height: 40px;
+  background: #eceae3 url(imagem/menu.png) no-repeat left bottom;
+  clear: both;
+
+}
+
+a:hover {
+  background-position: right bottom;
+  background: #f99200;
+  color: white;
+}
+
+#home #navegacao .home a ,
+#sobre #navegacao .sobre a,
+#noticias #navegacao .noticias a,
+#produto #navegacao .produto a,
+#servicos #navegacao .servicos a,
+#clientes #navegacao .clientes a,
+#contatos #navegacao .contatos a{
+  
+  background-position: right bottom;
+  background: #c2c0be;
+  color: white;
+
+}
+
+
+#rodape {
+  clear: both;
+  background: #c4c4c4;
+  padding: 5px;
+  text-align: center;
+ 
+}
+
