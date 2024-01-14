@@ -1,0 +1,117 @@
+/*Layouts liquido usa porcentagem para definir o tamanho dos componentes*/
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+  background: #eceaea;
+
+}
+#container {
+  width: 90%;
+  margin: 0 auto;/*centraliza o conteudo*/
+  /* border: 1px solid; */
+  min-width: 850px;/*evitar sobrepor os elementos*/
+  max-width: 1280px;
+}
+
+#marca {
+  width: 100%;
+  height: 100px;
+  background: gray url();
+  line-height: 6em;
+  text-align: center;
+}
+
+#conteudo {
+
+  width: 74%;  /* 630px=> coversao 74.18%  */
+  /* border: 1px solid; */
+  float: right;
+
+}
+
+#conteudo-principal {
+
+  width: 62%;/* 400px =>  65%*/
+  /* border: 1px solid; */
+  float: left;
+ 
+
+}
+#conteudo_secundario {
+
+  width: 30.40%; /*210px => */
+  /* border: 1px solid; */
+  float: right;
+  background: #d1d1d1;
+
+}
+
+#conteudo_secundario h1,
+#conteudo_secundario h2,
+#conteudo_secundario h3,
+#conteudo_secundario p {
+
+
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+
+}
+
+#navegacao {
+  /* border: 1px solid;  */
+  width: 24%;  /*  200px =>  24.39*/
+  float: left;
+  margin: 0;
+  /* padding-top: 10px; */
+  padding-left: 0px;
+  padding-bottom: 10px;
+  background: #d1d1d1;
+}
+
+#navegacao ul {
+  list-style: none;
+}
+
+#navegacao li a{
+ 
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-decoration: none;
+  text-indent: 40px;
+  line-height: 40px;
+  background: #eceae3 url(imagem/menu.png) no-repeat left bottom;
+  
+
+}
+
+a:hover {
+  background-position: right bottom;
+  background: #f99200;
+  color: white;
+}
+
+#home #navegacao .home a ,
+#sobre #navegacao .sobre a,
+#noticias #navegacao .noticias a,
+#produto #navegacao .produto a,
+#servicos #navegacao .servicos a,
+#clientes #navegacao .clientes a,
+#contatos #navegacao .contatos a{
+  
+  background-position: right bottom;
+  background: #c2c0be;
+  color: white;
+
+}
+
+
+#rodape {
+  clear: both;
+  background: #c4c4c4;
+  padding: 5px;
+  text-align: center;
+ 
+}
+
