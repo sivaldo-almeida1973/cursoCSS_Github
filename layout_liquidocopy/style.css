@@ -4,10 +4,10 @@ body {
 }
 
 #container {
-  /* border: 1px solid rgb(153, 54, 51); */
-  width: 85%;
+ 
+  width: 920px;
   margin: 0 auto;
-  background: #fff;
+  background: #fff url(imagem/coluna.png) repeat-y left top;
   min-width: 750px;
   max-width: 1280px;
 }
@@ -22,14 +22,12 @@ body {
 
 #conteudo {
   margin-top: 10px;
-  /* border: 1px solid; */
   width: 70%;  /*520 -> 74%*/
   float: right;
 }
 
 .conteudo1 {
   width: 58%; /*300*100/700= 60% */
-  /* border: 1px solid; */
   float: left;
   /* background: url(imagem/natureza.jpg) no-repeat center; */
  
@@ -37,7 +35,6 @@ body {
 
 .conteudo2 {
   width: 39%; /*200*100/500= 40%*/
-  /* border: 1px solid; */
   float: right;
   background: rgb(191, 189, 196);
 }
@@ -57,7 +54,6 @@ body {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 0;
-  /* border: 1px solid; */
   width: 27%; /*200*100/700= 28%*/
   min-width: 10%;
   float: left;
@@ -94,7 +90,6 @@ body {
 img{ 
    margin: 2px;
    padding: 2%;
-   /* border: 1px solid; */
    width: 94%;
    max-width: 600px;
    
@@ -113,18 +108,18 @@ ul {
 ul a {
  
   display: block;
-  border: 1px solid rgb(213, 205, 221);
+  /* border: 1px solid rgb(213, 205, 221); */
   color: #000;
   text-decoration: none;
   text-indent: 40%;
   line-height: 80px;
-  background: rgb(191, 189, 196);
+  /* background: rgb(191, 189, 196); */
  
 }
 
 #navegacao ul li a:hover {
   background-position: right bottom;
-  background: #e09328;
+  /* background: #e09328; */
   color: rgb(255, 255, 255);
 }
 
