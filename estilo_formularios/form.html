@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <h2>Estilos em formulários</h2>
+     <form>
+
+         <!-- fieldset cria um espaço -->
+         <fieldset>
+            <legend>Detalhes do contato:</legend>
+
+            <div>
+                <!-- o nome liga o label ao input pelo id(nome ) -->
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+
+
+            </div>
+
+            <div>
+              <!-- o nome liga o label ao input pelo id(nome ) -->
+              <label for="email">E-mail:</label>
+              <input type="text" name="email" id="email">
+
+              
+            </div>
+
+            <div>
+              <!-- o nome liga o label ao input pelo id(nome ) -->
+              <label for="url">URL:</label>
+              <input type="text" name="url" id="url">
+
+              
+          </div>
+
+
+         </fieldset>
+
+         <fieldset>
+
+             <legend>Comentarios:</legend>
+
+             <div>
+                 <label for="msg">Mensagem:</label>
+                 <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+             </div>
+         </fieldset>
+
+         <fieldset>
+                <legend>Lembrar de mim:</legend>
+                <div>
+                    <label for="sim">
+                      <input class="radio" type="radio" name="lembrar" id="sim">Sim
+                    </label>
+                </div>
+
+                <div>
+                  <label for="sim">
+                    <input class="radio" type="radio" name="lembrar" id="nao">Não
+                  </label>
+              </div>
+         </fieldset>
+
+
+
+     </form>
+  
+</body>
+</html>
