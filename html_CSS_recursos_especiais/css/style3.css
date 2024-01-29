@@ -1,0 +1,24 @@
+#caixa {
+  width: 200px;
+  height: 300px;
+  padding:0 20px;
+  margin:0 10px;
+  background-color: rgb(9, 150, 51);
+  float: left;
+  box-shadow: 10px 10px 20px 10px rgb(236, 160, 160);
+  border-radius: 20px;
+
+}
+
+h1 {
+  padding: 0;
+  color: rgba(rgb(207, 207, 207), rgb(247, 247, 247), rgb(150, 150, 187), alpha);
+  /* text-shadow: 1px 2px red; */
+  text-shadow: 2px 3px 7px rgba(0,0,0,0.5);
+  border: 1px solid;
+}
+
+p {
+  text-shadow: 1px 1px rgb(224, 50, 50);
+  /* text-shadow: 2px 3px rgba(0,0,0,0.3); */
+}
